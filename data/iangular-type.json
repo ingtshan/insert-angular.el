@@ -1,0 +1,12 @@
+{
+  "angular-type": [
+    {
+      "key": "build",
+      "description": "对构建系统或者外部依赖项进行了修改"
+    },
+    {
+      "key": "test",
+      "description": "对构建系统或者外部依赖项进行了修改"
+    }
+  ]
+}
