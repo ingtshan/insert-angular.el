@@ -34,6 +34,7 @@
   (let ((elt (assoc s iangular-type)))
     (when elt (format "\n          |%s" (cdr elt)))))
 
+;;;###autoload
 (defun iangular-type-completing-read (prompt &optional predicate require-match initial-input hist def inherit-input-method)
   (let* ((completion-extra-properties '(:annotation-function iangular-type-completing-annotation))
          (input (funcall completing-read-function
